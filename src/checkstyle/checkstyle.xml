@@ -117,7 +117,7 @@
 		</module>
 		<module name="com.puppycrawl.tools.checkstyle.checks.imports.IllegalImportCheck">
 			<property name="id" value="bannedJUnit4Imports"/>
-			<property name="regexp" value="true" />
+			<property name="regexp" value="false" />
 			<property name="illegalClasses"
 				value="^org\.junit\.(Test|BeforeClass|AfterClass|Before|After|Ignore|FixMethodOrder|Rule|ClassRule|Assert|Assume)$,^org\.junit\.(Assert|Assume)\..+,^org\.junit\.(experimental|internal|matchers|rules|runner|runners|validator)\..+" />
 		</module>
